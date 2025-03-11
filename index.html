@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Product list with cart</title>
+
+</head>
+<body> 
+
+  <!-- Desserts -->
+<div class="main">
+  <section class="dessert-container">
+
+<h1>Desserts</h1>
+
+<div class="grid-wrap">
+
+  <div class="grid-item" data-id="1" data-name="Waffle with Berries" data-price="6.50">
+    <figure class="img-container">
+      <img src="assets\images\image-waffle-desktop.jpg" alt="Waffle with Berries">
+    </figure>
+    <button class="add-to-cart">
+      <img src="assets\images\icon-add-to-cart.svg" alt="Cart Icon" class="cart-icon">
+      Add to Cart
+    </button>
+    <div class="quantity-controls hidden">
+      <button class="decrease"><img src="assets\images\icon-decrement-quantity.svg" alt="minus icon" class="icon-minus"></button>
+      <span class="quantity">1</span>
+      <button class="increase"><img src="assets\images\icon-increment-quantity.svg" alt="plus icon" class="icon-plus"></button>
+    </div>
+    <p>Waffle</p>
+    <h3>Waffle with Berries</h3>
+    <span class="price">$6.50</span>
+  </div>
+
+  <div class="grid-item" data-id="2" data-name="Vanilla Bean Crème Brûlée" data-price="7.00">
+    <figure class="img-container">
+      <img src="assets\images\image-creme-brulee-desktop.jpg" alt="Vanilla Bean Crème Brûlée">
+    </figure>
+    <button class="add-to-cart">
+      <img src="assets\images\icon-add-to-cart.svg" alt="Cart Icon" class="cart-icon">
+      Add to Cart
+    </button>
+    <div class="quantity-controls hidden">
+      <button class="decrease"><img src="assets\images\icon-decrement-quantity.svg" alt="minus icon" class="icon-minus"></button>
+      <span class="quantity">1</span>
+      <button class="increase"><img src="assets\images\icon-increment-quantity.svg" alt="plus icon" class="icon-plus"></button>
+    </div>
+  <p>Crème Brûlée</p>
+    <h3>Vanilla Bean Crème Brûlée</h3>
+    <span class="price">$7.00</span>
+  </div>
+
+  <div class="grid-item" data-id="3" data-name="Macaron Mix of Five" data-price="8.00">
+    <figure class="img-container">
+      <img src="assets\images\image-macaron-desktop.jpg" alt="Macaron Mix of Five">
+    </figure>
+    <button class="add-to-cart">
+      <img src="assets\images\icon-add-to-cart.svg" alt="Cart Icon" class="cart-icon">
+      Add to Cart
+    </button>
+    <div class="quantity-controls hidden">
+      <button class="decrease"><img src="assets\images\icon-decrement-quantity.svg" alt="minus icon" class="icon-minus"></button>
+      <span class="quantity">1</span>
+      <button class="increase"><img src="assets\images\icon-increment-quantity.svg" alt="plus icon" class="icon-plus"></button>
+    </div>
+    <p>Macaron</p>
+    <h3>Macaron Mix of Five</h3>
+    <span class="price">$8.00</span>
+  </div>
+
+  <div class="grid-item" data-id="4" data-name="Classic Tiramisu" data-price="5.50">
+    <figure class="img-container">
+      <img src="assets\images\image-tiramisu-desktop.jpg" alt="Classic Tiramisu">
+    </figure>
+    <button class="add-to-cart">
+      <img src="assets\images\icon-add-to-cart.svg" alt="Cart Icon" class="cart-icon">
+      Add to Cart
+    </button>
+    <div class="quantity-controls hidden">
+      <button class="decrease"><img src="assets\images\icon-decrement-quantity.svg" alt="minus icon" class="icon-minus"></button>
+      <span class="quantity">1</span>
+      <button class="increase"><img src="assets\images\icon-increment-quantity.svg" alt="plus icon" class="icon-plus"></button>
+    </div>
+    <p>Tiramisu</p>
+    <h3>Classic Tiramisu</h3>
+    <span class="price">$5.50</span>
+  </div>
+
+  <div class="grid-item" data-id="5" data-name="Pistachio Baklava" data-price="4.00">
+    <figure class="img-container">
+      <img src="assets\images\image-baklava-desktop.jpg" alt="Pistachio Baklava">
+    </figure>
+    <button class="add-to-cart">
+      <img src="assets\images\icon-add-to-cart.svg" alt="Cart Icon" class="cart-icon">
+      Add to Cart
+    </button>
+    <div class="quantity-controls hidden">
+      <button class="decrease"><img src="assets\images\icon-decrement-quantity.svg" alt="minus icon" class="icon-minus"></button>
+      <span class="quantity">1</span>
+      <button class="increase"><img src="assets\images\icon-increment-quantity.svg" alt="plus icon" class="icon-plus"></button>
+    </div>
+    <p>Baklava</p>
+    <h3>Pistachio Baklava</h3>
+    <span class="price">$4.00</span>
+  </div>
+
+  <div class="grid-item" data-id="6" data-name="Lemon Meringue Pie" data-price="5.00">
+    <figure class="img-container">
+      <img src="assets\images\image-meringue-desktop.jpg" alt="Lemon Meringue Pie">
+    </figure>
+    <button class="add-to-cart">
+      <img src="assets\images\icon-add-to-cart.svg" alt="Cart Icon" class="cart-icon">
+      Add to Cart</button>
+      <div class="quantity-controls hidden">
+        <button class="decrease"><img src="assets\images\icon-decrement-quantity.svg" alt="minus icon" class="icon-minus"></button>
+        <span class="quantity">1</span>
+        <button class="increase"><img src="assets\images\icon-increment-quantity.svg" alt="plus icon" class="icon-plus"></button>
+      </div>
+    <p>Pie</p>
+    <h3>Lemon Meringue Pie</h3>
+    <span class="price">$5.00</span>
+  </div>
+
+  <div class="grid-item" data-id="7" data-name="Red Velvet Cake" data-price="4.50">
+    <figure class="img-container">
+      <img src="assets\images\image-cake-desktop.jpg" alt="Red Velvet Cake">
+    </figure>
+    <button class="add-to-cart">
+      <img src="assets\images\icon-add-to-cart.svg" alt="Cart Icon" class="cart-icon">
+      Add to Cart
+    </button>
+      <div class="quantity-controls hidden">
+        <button class="decrease"><img src="assets\images\icon-decrement-quantity.svg" alt="minus icon" class="icon-minus"></button>
+        <span class="quantity">1</span>
+        <button class="increase"><img src="assets\images\icon-increment-quantity.svg" alt="plus icon" class="icon-plus"></button>
+      </div>
+    <p>Cake</p>
+    <h3>Red Velvet Cake</h3>
+    <span class="price">$4.50</span>
+  </div>
+
+  <div class="grid-item" data-id="8" data-name="Salted Caramel Brownie" data-price="4.50">
+    <figure class="img-container">
+      <img src="assets\images\image-brownie-desktop.jpg" alt="Salted Caramel Brownie">
+    </figure>
+    <button class="add-to-cart">
+      <img src="assets\images\icon-add-to-cart.svg" alt="Cart Icon" class="cart-icon">
+      Add to Cart
+    </button>
+    <div class="quantity-controls hidden">
+      <button class="decrease"><img src="assets\images\icon-decrement-quantity.svg" alt="minus icon" class="icon-minus"></button>
+      <span class="quantity">1</span>
+      <button class="increase"><img src="assets\images\icon-increment-quantity.svg" alt="plus icon" class="icon-plus"></button>
+    </div>
+    <p>Brownie</p>
+    <h3>Salted Caramel Brownie</h3>
+    <span class="price">$4.50</span>
+  </div>
+
+  <div class="grid-item" data-id="9" data-name="Vanilla Panna Cotta" data-price="6.50">
+    <figure class="img-container">
+      <img src="assets\images\image-panna-cotta-desktop.jpg" alt="Vanilla Panna Cotta">
+    </figure>
+    <button class="add-to-cart">
+      <img src="assets\images\icon-add-to-cart.svg" alt="Cart Icon" class="cart-icon">
+      Add to Cart
+    </button>
+    <div class="quantity-controls hidden">
+      <button class="decrease"><img src="assets\images\icon-decrement-quantity.svg" alt="minus icon" class="icon-minus"></button>
+      <span class="quantity">1</span>
+      <button class="increase"><img src="assets\images\icon-increment-quantity.svg" alt="plus icon" class="icon-plus"></button>
+    </div>
+    <p>Panna Cotta</p>
+    <h3>Vanilla Panna Cotta</h3>
+    <span class="price">$6.50</span>
+</div>
+
+</div>
+  </section>
+
+<!-- cart -->
+  <aside class="cart">
+    <h2>Your Cart (<span class="cart-quantity">0</span>)</h2>
+    
+    <div class="cart-items" id="cart-items">
+      <img src="assets\images\illustration-empty-cart.svg" alt="Empty Cart" class="empty-cart-image">
+     <span class="add-item-msg">Your added items will appear here</span>
+    </div>
+
+    <div class="cart-footer">
+      <div class="cart-total">
+      <p class="order-total">Order Total</p><span class="total-price">$0.00</span>
+    </div>
+    <div class="delivery-msg">
+      <img src="assets\images\icon-carbon-neutral.svg" alt="Delivery Icon" class="delivery-icon">
+      <p class="carbon-neutral">This is a <strong>carbon-neutral</strong> delivery</p>
+    </div>
+      <button class="confirm-order">Confirm Order</button>
+    </div>
+  </aside>
+</div>
+
+<!-- Order Confirmation Popup -->
+<div id="order-confirmation" class="popup hidden">
+  <div class="popup-content">
+    <img src="assets\images\icon-order-confirmed.svg" alt="Order Confirmed" class="order-confirmed-icon">
+      <h2>Order Confirmed</h2>
+      <p class="enjoy">We hope you enjoy your food!</p>
+      <div class="background">
+      <div id="order-summary"></div>
+      <div class="cart-total">
+      <p class="order-total">Order Total</p><span id="order-total" class="total-price">0.00</span></div>
+    </div>
+      <button id="start-new-order">Start New Order</button>
+  </div>
+</div>
+
+<!-- Author -->
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Adekoya Temiloluwa</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
